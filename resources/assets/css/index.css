@@ -1,0 +1,38 @@
+@font-face {
+    font-family: 'Myriad Pro';
+    src: url('../fonts/MYRIADPROREGULAR.ttf') format('woff'),
+    url('../fonts/MYRIADPROREGULAR.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'proximanovalight';
+    src: url('../fonts/proximanovalight.ttf') format('woff'),
+    url('../fonts/proximanovalight.ttf') format('truetype');
+}
+[ng\:cloak],[ng-cloak]{
+    display: none !important;
+}
+body {
+    height: 100%;
+    background: #f5f5f5;
+}
+.planner-block {
+    margin-top: 10px;
+}
+.row-centered {
+    text-align:center;
+}
+.offVal {
+    display: none !important;
+}
+.col-centered {
+    display:inline-block;
+    float:none;
+    /* inline-block space fix */
+    margin-right:-2px;
+}
+.navbar a{
+    color:#0f0f0f;
+}
+.navbar {
+    background: #fff;
+}
