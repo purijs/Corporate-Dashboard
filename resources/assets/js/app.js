@@ -14,7 +14,7 @@ app.config(function ($routeProvider) {
         })
         .when('/dview', {
             templateUrl: 'dview.php',
-            controller: 'masterd'
+            controller: 'masterd2'
         })
         .otherwise({
             redirectTo: '/'
