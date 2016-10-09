@@ -1,7 +1,7 @@
 /**
  * Created by JaskaranSingh on 27-09-2016.
  */
-var app=angular.module("dsb",['dsb.controller_0','dsb.controller_1','dsb.controller_2',"ngRoute","chart.js"]);
+var app=angular.module("dsb",['dsb.controller_0','dsb.controller_1','dsb.controller_2',"ngRoute","chart.js","ngMap"]);
 app.config(function ($routeProvider) {
     $routeProvider
         .when('/gview', {
@@ -19,4 +19,7 @@ app.config(function ($routeProvider) {
         .otherwise({
             redirectTo: '/'
         });
+});
+$(document).ready(function(){
+    $('[data-toggle="tooltip"]').tooltip();
 });

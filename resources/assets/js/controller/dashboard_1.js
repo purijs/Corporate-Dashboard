@@ -32,5 +32,15 @@ angular.module('dsb.controller_1', [])
                     }
                 };
             });
+            $http.get('./issues_r.csv').success(function(data) {
+                var allTextLines1 = data.split(/\r\n|\n/);
+                var data1 = [];
+                angular.forEach(allTextLines1, function(item) {
+                    if (item) data1.push(item);
+                });
+                $scope.data1=data1
+                $scope.labels1 = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul","Aug","Sept","Oct","Nov","Dec"];
+                $scope.series1 = ['Issues reported last year'];
+            });
         }, 100);
     }]);

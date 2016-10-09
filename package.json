@@ -9,5 +9,8 @@
     "gulp": "^3.9.1",
     "gulp-notify": "^2.2.0",
     "laravel-elixir": "^5.0.0"
+  },
+  "dependencies": {
+    "angular-chart.js": "^1.0.3"
   }
 }

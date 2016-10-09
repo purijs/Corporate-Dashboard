@@ -43,6 +43,7 @@
             <div ng-view></div>
         </div>
     </div>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDaoWnwIeMkv7ZUGzZR7zqvAX8mDxj6tys" async="" defer="defer" type="text/javascript"></script>
 <script src="js/master.js"></script>
 </body>
 </html>

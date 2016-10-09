@@ -14,7 +14,7 @@ var elixir = require('laravel-elixir');
 elixir(function(mix) {
     //mix.sass('app.scss');
     mix.styles(['bootstrap.min.css','index.css'],'public/css/master.css',null);
-    mix.scripts(['jquery.min.js','angular.min.js','ngroute.js','app.js','controller/dashboard_0.js','controller/dashboard_1.js','controller/dashboard_2.js','bootstrap.min.js'],'public/js/master.js',null);
+    mix.scripts(['jquery.min.js','angular.min.js','ngroute.js','Chart.min.js','angular-chart.min.js','ng-map.js','app.js','controller/dashboard_0.js','controller/dashboard_1.js','controller/dashboard_2.js','bootstrap.min.js'],'public/js/master.js',null);
     //mix.scripts('js/bootstrap.min.js','js/angular.min.js');
     //mix.scripts('js/bootstrap.min.js');
 });
