@@ -7,7 +7,7 @@ angular.module('dsb.controller_2', [])
             $http.get("./issues.json").then(function(response) {
                 $scope.issues = response.data.issue;
             });
-        }, 500);
+        }, 100);
         $scope.filterTypeSa=true
         $scope.filterTypeEp=false
         $scope.filterTypeEj=false

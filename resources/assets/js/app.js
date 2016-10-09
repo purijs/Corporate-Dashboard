@@ -1,7 +1,7 @@
 /**
  * Created by JaskaranSingh on 27-09-2016.
  */
-var app=angular.module("dsb",['dsb.controller_0','dsb.controller_1','dsb.controller_2',"ngRoute"]);
+var app=angular.module("dsb",['dsb.controller_0','dsb.controller_1','dsb.controller_2',"ngRoute","chart.js"]);
 app.config(function ($routeProvider) {
     $routeProvider
         .when('/gview', {
@@ -10,7 +10,7 @@ app.config(function ($routeProvider) {
         })
         .when('/kmview', {
             templateUrl: 'kmview.php',
-            controller: 'dsb.controller_1'
+            controller: 'masterd1'
         })
         .when('/dview', {
             templateUrl: 'dview.php',
