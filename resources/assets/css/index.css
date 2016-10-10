@@ -50,3 +50,6 @@ body {
     float: left;
     margin-bottom: 10px;
 }
+.col-md-12 {
+    overflow-x:scroll;
+}

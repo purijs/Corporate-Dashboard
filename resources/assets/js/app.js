@@ -20,6 +20,3 @@ app.config(function ($routeProvider) {
             redirectTo: '/'
         });
 });
-$(document).ready(function(){
-    $('[data-toggle="tooltip"]').tooltip();
-});

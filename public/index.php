@@ -39,7 +39,7 @@
                 <a class="btn btn-primary btn-lg" href="#dview" role="button">Data View</a>
             </p>
         </div>
-        <div class="col-md-12 col-centered container">
+        <div class="col-md-12">
             <div ng-view></div>
         </div>
     </div>

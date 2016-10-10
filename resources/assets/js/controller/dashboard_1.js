@@ -3,7 +3,7 @@
  */
 angular.module('dsb.controller_1', [])
     .controller('masterd1', ['$scope', '$http','$interval',function($scope,$http,$interval){
-        $interval(function() {
+        var promise=$interval(function() {
             $http.get("./issues.json").then(function(response) {
                 $scope.issues = response.data.issue;
             });
