@@ -43,4 +43,8 @@ angular.module('dsb.controller_1', [])
                 $scope.series1 = ['Issues reported last year'];
             });
         }, 100);
+        $scope.$on('$destroy',function(){
+            if(promise)
+                $interval.cancel(promise);
+        });
     }]);

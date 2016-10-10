@@ -129,4 +129,8 @@ angular.module('dsb.controller_2', [])
                 $scope.filterTypeEg=false
             }
         }
+        $scope.$on('$destroy',function(){
+            if(promise)
+                $interval.cancel(promise);
+        });
     }]);

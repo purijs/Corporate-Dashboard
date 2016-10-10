@@ -12,4 +12,8 @@ angular.module('dsb.controller_0', [])
             "scaledSize": [32, 32],
             "url": "http://www.myiconfinder.com/uploads/iconsets/256-256-a5485b563efc4511e0cd8bd04ad0fe9e.png"
         };
+        $scope.$on('$destroy',function(){
+            if(promise)
+                $interval.cancel(promise);
+        });
     }]);
